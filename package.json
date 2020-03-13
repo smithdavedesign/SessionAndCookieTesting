@@ -1,0 +1,18 @@
+{
+  "name": "test-for-session",
+  "version": "0.0.0",
+  "description": "testForSession",
+  "main": "app.js",
+  "author": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "json:server": "json-server --watch ./db.json --port 5000"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "bluebird": "^3.7.2",
+    "express": "^4.17.1",
+    "request": "^2.88.2"
+  }
+}
